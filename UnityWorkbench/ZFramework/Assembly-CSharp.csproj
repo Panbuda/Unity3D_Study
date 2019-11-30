@@ -123,6 +123,7 @@
     <Compile Include="Assets\ZFrameWork\Framework\Util\ResolutionCheck.cs" />
     <Compile Include="Assets\ZFrameWork\Framework\Util\TransformUtil.cs" />
     <Compile Include="Assets\ZFrameWork\Framework\ZMonoBehaviour.cs" />
+    <Compile Include="Assets\ZFrameWork\text.cs" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -168,31 +169,31 @@
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/UnityWorkbench/ZFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/ZFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

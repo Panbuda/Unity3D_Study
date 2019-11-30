@@ -5,6 +5,7 @@ namespace ZFramework
 {
 	public class Exporter
 	{
+		//导出框架包
 		[MenuItem("ZFramework/Framework/Editor/OutputZFramework %e")]
 		static void MenuClicked()
 		{
