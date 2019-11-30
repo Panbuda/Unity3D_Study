@@ -123,7 +123,6 @@
     <Compile Include="Assets\ZFrameWork\Framework\Util\ResolutionCheck.cs" />
     <Compile Include="Assets\ZFrameWork\Framework\Util\TransformUtil.cs" />
     <Compile Include="Assets\ZFrameWork\Framework\ZMonoBehaviour.cs" />
-    <Compile Include="Assets\ZFrameWork\text.cs" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Fog.shader" />
