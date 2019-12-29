@@ -25,3 +25,19 @@
 ## 05
 
 * Make inventory UI.
+
+## 06
+
+* Scripts of inventory UI.
+* Use of EventSystem.current.IsPointerOverGameObject().
+* Knowledge of delegate and event.
+
+## 07
+
+* Implement equipment system.
+
+## 08
+
+* Using of Skinned Mesh Renderer.
+* Set the defaut item.
+* [ContextMenu()].

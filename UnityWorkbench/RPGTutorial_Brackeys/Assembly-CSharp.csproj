@@ -63,9 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
-    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
-    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\DragToRotate.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -111,16 +108,9 @@
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Environment\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\InventorySlot.cs" />
-    <Compile Include="Assets\InventoryUI.cs" />
-    <Compile Include="Assets\Scripts\CharactorScripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\CharactorScripts\CharactorAnimator.cs" />
-    <Compile Include="Assets\Scripts\CharactorScripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\CharactorScripts\PlayerMotor.cs" />
-    <Compile Include="Assets\Scripts\Interactable.cs" />
-    <Compile Include="Assets\Scripts\InventoryScripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\InventoryScripts\Item.cs" />
-    <Compile Include="Assets\Scripts\InventoryScripts\ItemPickup.cs" />
+    <Compile Include="Assets\Meshes\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
+    <Compile Include="Assets\Meshes\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
+    <Compile Include="Assets\Meshes\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\DragToRotate.cs" />
     <Compile Include="Assets\ZFrameWork\Example\1.CopyText\CommonUtilExample.cs" />
     <Compile Include="Assets\ZFrameWork\Example\2.AutoUseMenu\EditorUtilExample.cs" />
     <Compile Include="Assets\ZFrameWork\Example\3.CheckResolutionRatio\ResolutionCheckExample.cs" />
@@ -136,6 +126,18 @@
     <Compile Include="Assets\ZFrameWork\Framework\Util\ResolutionCheck.cs" />
     <Compile Include="Assets\ZFrameWork\Framework\Util\TransformUtil.cs" />
     <Compile Include="Assets\ZFrameWork\Framework\ZMonoBehaviour.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Charactor\CameraController.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Charactor\CharactorAnimator.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Charactor\PlayerController.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Charactor\PlayerMotor.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\EquipmentManager.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Interactable.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Inventory\Inventory.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Items\Equipment.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Items\Item.cs" />
+    <Compile Include="Assets\ZFrameWork\RPGBasic\Items\ItemPickup.cs" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -159,7 +161,7 @@
     <None Include="Assets\Environment\Particles\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\Environment\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
+    <None Include="Assets\Meshes\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\Environment\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
     <None Include="Assets\Environment\PostProcessing\Editor Resources\UI\Trackball.shader" />
@@ -202,14 +204,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/RPGTutorial_Brackeys/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/RPGTutorial_Brackeys/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/RPGTutorial_Brackeys/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/RPGTutorial_Brackeys/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/CoderLife/Unity3D_Study/UnityWorkbench/RPGTutorial_Brackeys/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
