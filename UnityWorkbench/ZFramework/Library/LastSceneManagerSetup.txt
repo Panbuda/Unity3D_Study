@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/ZFrameWork/Example/9.NavMeshAgent/NaveMeshAgent.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
